@@ -42,7 +42,7 @@ body {
 
 .logo-studio-header {
     color: var(--title-text-color);
-    }
+}
 
     /* Button */
 
@@ -65,6 +65,7 @@ body {
 .link:focus {
     color: var(--accent-color);
 }
+
 .site-nav a{
     color: var(--title-text-color);  
     text-decoration: none;  
@@ -84,18 +85,17 @@ body {
 .site-nav {
     display: flex;
 }
+
 .site-nav-link{
     display: block;
     padding-top: 32px;
-    padding-bottom: 32px;
-    
+    padding-bottom: 32px;    
 }
 
 .site-nav .site-nav-link:not(:last-child){
-   
-    margin-right: 50px;
-   
+    margin-right: 50px;   
 }
+
 .contacts {
     display: flex;
     align-items: baseline;
@@ -104,25 +104,12 @@ body {
 .contacts .footer-adress-contacts+.footer-adress-contacts{
     margin-left: 50px;
 }
-/* 
-.contacts a:hover,
-.contacts a:focus{
-    color: var(--accent-color);
-} */
 
 .link-icon-envelope,
 .link-icon-phone{
     fill: var(--primary-text-color);
     margin-right: 10px;
 }
-
-/* .link-icon-envelope:hover .mail-link,
-.link-icon-envelope:focus .mail-link,
-.link-icon-phone:hover .mail-link,
-.link-icon-phone:focus .mail-link{
-    fill: var(--accent-color);
-    cursor: pointer;
-} */
 
 .mail-link{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -229,8 +216,6 @@ body {
     padding: 0;
     margin: 0;
     }
-
-
 
 
     /*  Footer */
