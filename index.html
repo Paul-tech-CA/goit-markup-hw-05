@@ -59,9 +59,12 @@
         <section class="hero-section hero-bacground-picture">
             <div class="container hero-section-con">
                 <h1 class="hero-title studio" >ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br> ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-                <button class="button primary link">Заказать услугу</button>
+                <button class="button primary link" data-modal-open>Заказать услугу</button>
             </div>
-            <div class="backdrop is-hidden">
+            
+            <!-- Modal window -->
+                   
+            <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit.                        
@@ -69,7 +72,7 @@
                         mollitia tenetur doloremque minus, rem maiores praesentium maxime odit.
                          Necessitatibus rerum dolor incidunt inventore!
                     </p>
-                    <button>CLOSE</button>
+                    <button data-modal-close>CLOSE</button>
                 </div>
             </div>            
         </section>
@@ -392,7 +395,7 @@
         </footer>
   
     
-
+    <script src="./js/modal.js"></script>
 </body>
 </html>
 
