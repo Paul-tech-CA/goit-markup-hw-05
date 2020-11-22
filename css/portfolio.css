@@ -67,7 +67,7 @@ border-bottom: 1px solid #ECECEC;
   position: relative;
 }
 
-.position-absolut-examples:hover{
+.examples-title-case:hover .position-absolut-examples{
     opacity: 1;
 }
 
