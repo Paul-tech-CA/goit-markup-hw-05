@@ -115,7 +115,7 @@ border-bottom: 1px solid #ECECEC;
 
 /* ----------------Animation-------------- */
 
-.examples-title-case:hover .card-thumb-overlay{
+.card-thumb:hover .card-thumb-overlay{
     transform: translateY(-100%);}
 
 /* ------------------ */
